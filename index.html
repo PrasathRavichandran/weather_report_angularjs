@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" ng-app="weatherReport">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Weather Report</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Common header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Weatherreport</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Router outlet -->
+    <main ng-view></main>
+    <!-- Optional javascript -->
+    <script src="./js/angular.min.js"></script>
+    <script src="./js/angular-route.min.js"></script>
+    <script src="./js/angular-resource.min.js"></script>
+    <!-- main js -->
+    <script src="./main.js"></script>
+    <!-- router js -->
+    <script src="./router.js"></script>
+    <!-- controllers -->
+    <script src="./controllers/homeController.js"></script>
+    <script src="./controllers/forecastController.js"></script>
+</body>
+
+</html>
