@@ -1,2 +1,2 @@
 // Initializing angular application
-angular.module("weatherReport", ["ngRoute"]);
+angular.module("weatherReport", ["ngRoute","ngResource"]);

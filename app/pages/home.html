@@ -9,11 +9,11 @@
                     <div class="home__form">
                         <div class="row d-flex justify-content-center text-center">
                             <div class="col-md-6">
-                                <form>
+                                <form ng-submit="searchCity()">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Search city">
+                                        <input type="text" class="form-control" ng-model="city" placeholder="Search city">
                                     </div>
-                                    <button class="btn">Search</button>
+                                    <button class="btn" type="submit">Search</button>
                                 </form>
                             </div>
                         </div>

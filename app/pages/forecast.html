@@ -8,7 +8,7 @@
                         <div class="col-md-12">
                             <!-- display city name and current year -->
                             <div class="forecast__header-heading text-center">
-                                London - 2020
+                                {{city}} - 2020
                             </div>
                         </div>
                         <!-- temperature C/F toggle button -->
@@ -28,40 +28,9 @@
                 <!-- forecast body -->
                 <div class="forecast__body">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="card forecast__body-card">
-                                <div class="card-body">
-                                    <!-- display date and time -->
-                                    <div class="forecast__body-date-time">
-                                        Apr 28 - 12:00
-                                    </div>
-                                    <div class="forecast__body-inner">
-                                        <!-- display main temperature -->
-                                        <div class="forecast__body-inner-temperature">
-                                            28
-                                            <span class="forecast__body-inner-temperature-metric">°</span>
-                                        </div>
-                                        <!-- display temperature status -->
-                                        <div class="forecast__body-inner-temperature-status">
-                                            cloudy
-                                        </div>
-                                        <div class="forecast__body-inner-temp-minmax d-flex justify-content-between">
-                                            <!-- display minimum temperature -->
-                                            <div class="forecast__body-inner-temp-min d-flex flex-column">
-                                                <img src="../../assets/img/down.svg" alt="">
-                                                <span class="forecast__body-inner-temp-min-text">28</span>
-                                                <span class="min__text">Min</span>
-                                            </div>
-                                            <!-- display maximum temperature -->
-                                            <div class="forecast__body-inner-temp-max d-flex flex-column">
-                                                <img src="../../assets/img/up.svg" alt="">
-                                                <span class="forecast__body-inner-temp-max-text">30</span>
-                                                <span class="max__text">Max</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-md-4" ng-repeat="w in weatherApiResult.list">
+                            <weather-report weather-data="w" convert-to-standard="convertToFahrenhiet(daytimeTemp)" 
+                            convert-to-date-directive="convertToDate(dt)" date-format="MMM d - H:mm"></weather-report>
                         </div>
                     </div>
                 </div>

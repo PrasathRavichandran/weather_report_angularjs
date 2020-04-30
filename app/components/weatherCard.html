@@ -1,0 +1,35 @@
+<div class="card forecast__body-card">
+    <div class="card-body">
+        <!-- display date and time -->
+        <div class="forecast__body-date-time">
+            {{convertToDateDirective({dt:weatherData.dt}) | date:dateFormat}}
+        </div>
+        <div class="forecast__body-inner">
+            <!-- display main temperature -->
+            <div class="forecast__body-inner-temperature">
+                {{convertToStandard({daytimeTemp:weatherData.main.temp}) }}
+                <span class="forecast__body-inner-temperature-metric">°</span>
+            </div>
+            <!-- display temperature status -->
+            <div class="forecast__body-inner-temperature-status">
+                {{weatherData.weather[0].main}}
+            </div>
+            <div class="forecast__body-inner-temp-minmax d-flex justify-content-between">
+                <!-- display minimum temperature -->
+                <div class="forecast__body-inner-temp-min d-flex flex-column">
+                    <img src="../../assets/img/down.svg" alt="">
+                    <span
+                        class="forecast__body-inner-temp-min-text">{{convertToStandard({daytimeTemp:weatherData.main.temp_min}) }}</span>
+                    <span class="min__text">Min</span>
+                </div>
+                <!-- display maximum temperature -->
+                <div class="forecast__body-inner-temp-max d-flex flex-column">
+                    <img src="../../assets/img/up.svg" alt="">
+                    <span
+                        class="forecast__body-inner-temp-max-text">{{convertToStandard({daytimeTemp:weatherData.main.temp_max}) }}</span>
+                    <span class="max__text">Max</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
