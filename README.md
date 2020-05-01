@@ -1,9 +1,11 @@
 # Weather_Report_AngularJS
 This is a basic app that I have created to show latest weather report updates for the cities in the world. I have integrated [weather api](https://openweathermap.org/forecast5) to this application.
 
+
 <p align="center">
-  <img src="" width="50%" height="50%"/>
+  <img src="https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/screenshots/app_screenshot.gif" width="100%" height="auto"/>
 </p>
+
 
 This project was built on the top of AngularJS, WeatherAPI and Bootstrap to see how this MV* framework is interacts with other layers of the application. This project is merely my attempt to put something together based on the ideas put accross in AngularJS course videos and documentation.
 ## Concepts
