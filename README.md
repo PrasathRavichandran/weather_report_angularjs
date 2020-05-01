@@ -21,3 +21,5 @@ Follow me on [LinkedIn](https://www.linkedin.com/in/prasathravi) to get the late
 2) [Error handling](https://docs.angularjs.org/error)
 3) [Services - ngResource](https://docs.angularjs.org/api/ngResource/service/$resource)
 4) [Services - ngResource error handling](https://stackoverflow.com/questions/20584367/how-to-handle-resource-service-errors-in-angularjs/25770599)
+5) [Creating new appid in opengeolocation.com](https://openweathermap.org/appid)
+6) [Forecast api documentation](https://openweathermap.org/forecast5)
