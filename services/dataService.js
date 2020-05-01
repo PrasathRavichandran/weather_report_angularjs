@@ -8,7 +8,7 @@ angular.module("weatherReport").service("dataApiService", [
       );
       return weatherApi.get({
         q: city,
-        appid: "",
+        appid: "", // Please Provide your api key. For Refs https://openweathermap.org/appid
         cnt: 10,
       });
     };
