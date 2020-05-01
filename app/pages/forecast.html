@@ -16,10 +16,16 @@
                 </div>
                 <!-- forecast body -->
                 <div class="forecast__body">
-                    <div class="row">
-                        <div class="col-md-4" ng-repeat="w in weatherApiResult.list">
-                            <weather-report weather-data="w" convert-to-standard="convertToFahrenhiet(daytimeTemp)" 
+                    <div class="row" ng-if="!errorHandler">
+                        <div class="col-md-4" ng-repeat="w in weatherApiResult">
+                            <weather-report weather-data="w" convert-to-standard="convertToCelcius(daytimeTemp)" 
                             convert-to-date-directive="convertToDate(dt)" date-format="MMM d - H:mm"></weather-report>
+                        </div>
+                    </div>
+                    <!-- Error message -->
+                    <div class="row mt-5" ng-if="errorHandler">
+                        <div class="col-md-12 text-center">
+                            <h4>This {{errorMessage}}</h4>
                         </div>
                     </div>
                 </div>

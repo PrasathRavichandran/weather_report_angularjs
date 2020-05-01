@@ -2,8 +2,9 @@
 angular.module("weatherReport").controller("homeController", [
   "$scope",
   "$location",
+  "$interpolate",
   "cityService",
-  function ($scope, $location, cityService) {
+  function ($scope, $location, $interpolate, cityService) {
     $scope.city = cityService.city;
 
     $scope.$watch("city", function () {
@@ -12,7 +13,8 @@ angular.module("weatherReport").controller("homeController", [
 
     $scope.searchCity = function () {
       if ($scope.city !== "") {
-        $location.url(["/forecast"]);
+        const url = $interpolate("/forecast/{{city}}")($scope);
+        $location.url(url);
       } else {
         return;
       }
