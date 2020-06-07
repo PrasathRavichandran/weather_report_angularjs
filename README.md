@@ -25,3 +25,6 @@ Follow me on [LinkedIn](https://www.linkedin.com/in/prasathravi) to get the late
 4) [Services - ngResource error handling](https://stackoverflow.com/questions/20584367/how-to-handle-resource-service-errors-in-angularjs/25770599)
 5) [Creating new appid in opengeolocation.com](https://openweathermap.org/appid)
 6) [Forecast api documentation](https://openweathermap.org/forecast5)
+
+## Copyright and license
+Code and documentation copyright 2020 the authors. Code released under the [MIT License](https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/LICENSE).
