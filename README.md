@@ -26,5 +26,7 @@ Follow me on [LinkedIn](https://www.linkedin.com/in/prasathravi) to get the late
 5) [Creating new appid in opengeolocation.com](https://openweathermap.org/appid)
 6) [Forecast api documentation](https://openweathermap.org/forecast5)
 
-## Copyright and license
-Code and documentation copyright 2020 the authors. Code released under the [MIT License](https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/LICENSE).
+## License & Copyright
+© Prasath Ravichandran, Full stack developer
+
+Licensed under the [MIT License.](https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/LICENSE)
