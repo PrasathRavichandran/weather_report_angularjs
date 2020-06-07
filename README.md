@@ -1,8 +1,7 @@
 <p align="center">
   <img src="https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/assets/img/Angular.svg" alt="Logo" width=400 height=300>
   <h1 align="center">Weather Report Generator</h1>
-<p align="center">This is a basic app that I have created to show latest weather report updates for the cities in the world. I have integrated [weather api](https://openweathermap.org/forecast5) to this application.</p>
-</p>
+<p align="center">This is a basic app that I have created to show latest weather report updates for the cities in the world. I have utilized & Integrated the weather forecast api to this application.</p>
 
 <p align="center">
   <img src="https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/screenshots/app_screenshot.gif" width="100%" height="auto"/>
