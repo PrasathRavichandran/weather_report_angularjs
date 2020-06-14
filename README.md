@@ -2,13 +2,21 @@
   <img src="https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/assets/img/Angular.svg" alt="Logo" width=400 height=300>
   <h1 align="center">Weather Report Generator</h1>
 <p align="center">This is a basic app that I have created to show latest weather report updates for the cities in the world. I have utilized & Integrated the weather forecast api to this application.</p>
-
+</p>
 <p align="center">
   <img src="https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/screenshots/app_screenshot.gif" width="100%" height="auto"/>
 </p>
 
 
 This project was built on the top of AngularJS, WeatherAPI and Bootstrap to see how this MV* framework is interacts with other layers of the application. This project is merely my attempt to put something together based on the ideas put accross in AngularJS course videos and documentation.
+
+## Wireframe
+I used [Adobe XD](https://www.adobe.com/in/products/xd.html) to design this application wireframe.
+
+<p align="center"> 
+  <img src="https://github.com/PrasathRavichandran/weather_report_angularjs/blob/master/screenshots/wireframe.png" alt="application wireframe image"/>
+</p>
+
 ## Concepts
 In this project I have used [AngularJS](https://angularjs.org/), [Bootstrap 4](https://getbootstrap.com/) and I also integrate [weathermap API](https://openweathermap.org/api) in particular I utilize [forecast api](https://openweathermap.org/forecast5) which is helpful for getting weather reports of particular cities on the searched basis. 
 ## Platforms
